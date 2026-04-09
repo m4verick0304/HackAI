@@ -405,12 +405,13 @@ export function AdminLogin({ onLogin }) {
         </form>
 
         <button
+          type="button"
           onClick={demoAdmin}
           className="login-btn-demo"
-          style={{ marginTop: 12 }}
+          style={{ width: '100%', marginTop: 12, border: '1px solid var(--border-neutral)' }}
           disabled={loading}
         >
-          ⚡ Demo Admin Access
+          ⚡ Quick Demo Login (Skip Auth)
         </button>
 
         <p className="login-forgot">Forgot credentials? Contact your IT administrator</p>
