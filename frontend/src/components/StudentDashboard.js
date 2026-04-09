@@ -177,7 +177,8 @@ export default function StudentDashboard({ onDataUpdate }) {
       if (onDataUpdate) onDataUpdate(data);
     } catch (e) {
       clearInterval(interval);
-      setError('Failed to connect to backend. Make sure Flask server is running on port 5000.');
+      const errorMsg = e.message || 'Failed to connect to backend. Make sure FastAPI server is running (uvicorn main:app).';
+      setError(errorMsg);
     } finally {
       setLoading(false);
     }
@@ -285,7 +286,26 @@ export default function StudentDashboard({ onDataUpdate }) {
             </div>
 
             {error && (
-              <div className="alert alert-error mb-16">{error}</div>
+              <div className="alert alert-error mb-16">
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <span>{error}</span>
+                  <button 
+                    onClick={handleGeneratePlan}
+                    style={{ 
+                      background: 'rgba(255,255,255,0.1)', 
+                      border: '1px solid rgba(255,255,255,0.2)', 
+                      borderRadius: 6, 
+                      padding: '4px 12px', 
+                      color: 'white', 
+                      cursor: 'pointer', 
+                      fontSize: 12,
+                      marginLeft: 12
+                    }}
+                  >
+                    🔄 Retry
+                  </button>
+                </div>
+              </div>
             )}
 
             <button

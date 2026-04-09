@@ -1,3 +1,14 @@
-flask
+fastapi
+uvicorn[standard]
+google-genai
+pdfplumber
+httpx
+python-multipart
+supabase
+python-jose[cryptography]
+python-dotenv
+fastapi
+uvicorn
+gunicorn
+python-multipart
 flask-cors
-google-generativeai

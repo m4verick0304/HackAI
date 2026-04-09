@@ -172,6 +172,7 @@ export default function AdminDashboard() {
   const fetchData = useCallback(async () => {
     try {
       setLoading(true);
+      setError('');
       const result = await api.getAdminData();
       if (result.success) {
         setData(result);
@@ -179,7 +180,7 @@ export default function AdminDashboard() {
         setError('Failed to load admin data.');
       }
     } catch (e) {
-      setError('Cannot connect to backend. Make sure Flask server is running on port 5000.');
+      setError(`Backend error: ${e.message || 'Cannot connect. Ensure FastAPI is running on port 8000.'}`);
     } finally {
       setLoading(false);
     }
@@ -198,15 +199,26 @@ export default function AdminDashboard() {
   }) || [];
 
   if (loading) return (
-    <div className="loading-overlay" style={{ minHeight: 300 }}>
+    <div className="loading-overlay" style={{ minHeight: 400, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 24 }}>
       <div className="spinner" />
-      <div className="loading-text">Loading admin data...</div>
+      <div className="loading-text">Loading admin dashboard...</div>
     </div>
   );
 
   if (error) return (
-    <div className="alert alert-error" style={{ maxWidth: 600, margin: '48px auto' }}>
-      ❌ {error}
+    <div style={{ maxWidth: 600, margin: '48px auto', textAlign: 'center' }}>
+      <div style={{ fontSize: 64, marginBottom: 16 }}>⚠️</div>
+      <div className="alert alert-error" style={{ marginBottom: 16 }}>
+        {error}
+      </div>
+      <p style={{ color: '#94a3b8', marginBottom: 20 }}>Ensure the backend is running with proper Supabase configuration.</p>
+      <button 
+        className="btn btn-primary" 
+        onClick={fetchData}
+        style={{ display: 'inline-flex', alignItems: 'center', gap: 8 }}
+      >
+        🔄 Retry
+      </button>
     </div>
   );
 

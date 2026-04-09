@@ -1,5 +1,5 @@
 // api.js - Centralized API service for PrepGenie frontend
-const BASE_URL = 'http://localhost:5001';
+const BASE_URL = 'http://localhost:8000';
 
 const api = {
   /**
@@ -11,6 +11,7 @@ const api = {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ resume_text: resumeText, goal, name })
     });
+    if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
     return res.json();
   },
 
@@ -23,6 +24,7 @@ const api = {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ skills, goal, tasks_completed: tasksCompleted, tasks_missed: tasksMissed })
     });
+    if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
     return res.json();
   },
 
@@ -35,6 +37,7 @@ const api = {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ student_id: studentId, tasks_completed: tasksCompleted, tasks_missed: tasksMissed })
     });
+    if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
     return res.json();
   },
 
@@ -47,6 +50,7 @@ const api = {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ student_id: studentId, roadmap })
     });
+    if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
     return res.json();
   },
 
@@ -59,6 +63,7 @@ const api = {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ probability, tasks_missed: tasksMissed, skills })
     });
+    if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
     return res.json();
   },
 
@@ -67,6 +72,7 @@ const api = {
    */
   getAdminData: async () => {
     const res = await fetch(`${BASE_URL}/admin-data`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
     return res.json();
   }
 };

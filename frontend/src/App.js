@@ -99,10 +99,6 @@ function App() {
               <span className="portal-arrow">→</span>
             </button>
           </div>
-
-          <p className="landing-hint">
-            Demo credentials — Student: <code>STU001 / student123</code> &nbsp;|&nbsp; Admin: <code>ADMIN001 / admin123</code>
-          </p>
         </div>
       </div>
     );
