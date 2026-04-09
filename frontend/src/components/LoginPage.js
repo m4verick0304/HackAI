@@ -152,7 +152,8 @@ export function StudentLogin({ onLogin }) {
   const [error, setError]     = useState('');
 
   /* ── Google OAuth ── */
-  const signInWithGoogle = async () => {
+  const signInWithGoogle = async (e) => {
+    e.preventDefault();
     setLoading(true);
     setError('');
     const { error: err } = await supabase.auth.signInWithOAuth({
@@ -191,6 +192,7 @@ export function StudentLogin({ onLogin }) {
           className="login-btn-google"
           onClick={signInWithGoogle}
           disabled={loading}
+          type="button"
         >
           <GoogleIcon />
           {loading ? 'Redirecting…' : 'Continue with Google'}
