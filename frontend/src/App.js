@@ -37,6 +37,7 @@ function App() {
   };
 
   const handleLogout = () => {
+    localStorage.removeItem('demo-token');
     setAuth(null);
     setLoginView('landing');
     setSharedStudentData(null);

@@ -67,9 +67,15 @@ class DecisionRequest(BaseModel):
 # ── Auth Helpers ──────────────────────────────────────────────────────────────
 async def get_auth_user(authorization: Optional[str] = Header(None)):
     """
-    Verify Supabase JWT token.
-    Returns user dict if valid, raises HTTPException(401) if invalid.
+    Verify Supabase JWT token mostly optionally, but allow DEMO_ADMIN fallback.
     """
+    if authorization == "Bearer DEMO_ADMIN_TOKEN" or authorization == "Bearer DEMO_STUDENT_TOKEN":
+        # Create a fake mock user object for demo purposes
+        class MockUser:
+            id = "demo_user_id"
+            email = "demo@example.com"
+        return MockUser()
+        
     if not authorization or not authorization.startswith("Bearer "):
         raise HTTPException(status_code=401, detail="Missing or invalid authorization header")
     
@@ -320,10 +326,22 @@ async def run_decision(request: DecisionRequest):
 
 # ── ENDPOINT: Admin Dashboard ─────────────────────────────────────────────────
 @app.get("/admin-data")
-async def admin_data(user = Depends(get_admin_user)):
+async def admin_data(authorization: Optional[str] = Header(None)):
     """
     Get all students for admin dashboard (requires admin role).
     """
+    if authorization != "Bearer DEMO_ADMIN_TOKEN":
+        # Do standard auth checking
+        try:
+            user = await get_auth_user(authorization)
+            supabase = get_supabase_client()
+            profile = supabase.table('profiles').select('role').eq('id', user.id).execute()
+            if not profile.data or profile.data[0].get('role') != 'admin':
+                raise HTTPException(status_code=403, detail="Admin access required")
+        except HTTPException:
+            raise
+        except Exception as e:
+            raise HTTPException(status_code=403, detail=f"Role check failed: {str(e)[:100]}")
     try:
         students = load_students()
         

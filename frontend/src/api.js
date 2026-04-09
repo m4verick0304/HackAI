@@ -7,8 +7,14 @@ const BASE_URL = process.env.REACT_APP_API_URL || 'https://hackai-oz9d.onrender.
 export const fetchWithAuth = async (url, options = {}) => {
   let token = null;
   try {
-    const { data: { session } } = await supabase.auth.getSession();
-    token = session?.access_token;
+    // Hackathon local storage bypass
+    const demoToken = localStorage.getItem('demo-token');
+    if (demoToken) {
+      token = demoToken;
+    } else {
+      const { data: { session } } = await supabase.auth.getSession();
+      token = session?.access_token;
+    }
   } catch (e) {
     console.warn("Could not get supabase session", e);
   }

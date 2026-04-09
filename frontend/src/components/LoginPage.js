@@ -167,7 +167,12 @@ export function StudentLogin({ onLogin }) {
     /* On success Supabase redirects — no further action needed */
   };
 
-  /* ── Demo removed — use real Supabase auth ── */
+  /* ── Demo fallback ── */
+  const demoStudent = () => {
+    setLoading(true);
+    localStorage.setItem('demo-token', 'DEMO_STUDENT_TOKEN');
+    setTimeout(() => onLogin({ role: 'student', name: 'Demo Student', id: 'DEMO_STUDENT' }), 400);
+  };
 
   return (
     <div className="login-shell">
@@ -204,6 +209,16 @@ export function StudentLogin({ onLogin }) {
 
         {/* Phone OTP */}
         <PhoneOTPForm role="student" onLogin={onLogin} />
+
+        <button
+          type="button"
+          onClick={demoStudent}
+          className="login-btn-ghost"
+          style={{ width: '100%', marginTop: 12, border: '1px solid var(--border-neutral)' }}
+          disabled={loading}
+        >
+          ⚡ Quick Demo Login (Skip Auth)
+        </button>
 
         <div className="login-switch">
           <span>Admin?</span>
@@ -291,6 +306,7 @@ export function AdminLogin({ onLogin }) {
   /* ── Demo fallback ── */
   const demoAdmin = () => {
     setLoading(true);
+    localStorage.setItem('demo-token', 'DEMO_ADMIN_TOKEN');
     setTimeout(() => onLogin({ role: 'admin', name: 'Demo Admin', id: 'DEMO_ADMIN' }), 400);
   };
 
