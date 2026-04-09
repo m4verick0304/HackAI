@@ -1,0 +1,1300 @@
+[
+  {
+    "id": "student_001",
+    "name": "Arjun Sharma",
+    "email": "arjun@example.com",
+    "skills": [
+      "python",
+      "dsa",
+      "sql"
+    ],
+    "goal": "SDE",
+    "tasks_completed": 5,
+    "tasks_missed": 2,
+    "status": "Learning",
+    "probability": 62,
+    "roadmap": [],
+    "suggestions": [],
+    "alerts": [],
+    "created_at": "2026-04-09T10:00:00Z"
+  },
+  {
+    "id": "student_002",
+    "name": "Priya Patel",
+    "email": "priya@example.com",
+    "skills": [
+      "excel",
+      "python",
+      "statistics"
+    ],
+    "goal": "Data Analyst",
+    "tasks_completed": 3,
+    "tasks_missed": 5,
+    "status": "At Risk",
+    "probability": 28,
+    "roadmap": [],
+    "suggestions": [],
+    "alerts": [
+      "Missed 5 tasks this week"
+    ],
+    "created_at": "2026-04-09T10:30:00Z"
+  },
+  {
+    "id": "student_003",
+    "name": "Rohan Gupta",
+    "email": "rohan@example.com",
+    "skills": [
+      "javascript",
+      "react",
+      "nodejs",
+      "sql",
+      "git",
+      "dsa"
+    ],
+    "goal": "Full Stack Developer",
+    "tasks_completed": 12,
+    "tasks_missed": 1,
+    "status": "Ready",
+    "probability": 85,
+    "roadmap": [],
+    "suggestions": [
+      "Apply to top product companies"
+    ],
+    "alerts": [],
+    "created_at": "2026-04-09T11:00:00Z"
+  },
+  {
+    "name": "Arjun Singh",
+    "goal": "SDE",
+    "skills": [
+      "react",
+      "git",
+      "sql",
+      "js",
+      "dsa",
+      "node.js",
+      "python"
+    ],
+    "tasks_completed": 0,
+    "tasks_missed": 0,
+    "roadmap": [
+      {
+        "day": 1,
+        "task": "Revise Arrays & Strings \u2014 Solve 3 LeetCode Easy problems",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 2,
+        "task": "Study Linked Lists & Recursion \u2014 Implement from scratch",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 3,
+        "task": "Trees & Graph traversal \u2014 BFS/DFS practice",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 4,
+        "task": "Dynamic Programming basics \u2014 Fibonacci, Knapsack",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 5,
+        "task": "System Design concepts \u2014 CAP theorem, Load Balancing",
+        "topic": "System Design",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 6,
+        "task": "Mock Interview simulation \u2014 2 problems in 45 minutes",
+        "topic": "Interview Prep",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 7,
+        "task": "Resume polish + Apply to 5 SDE roles on LinkedIn/Naukri",
+        "topic": "Job Hunt",
+        "completed": false,
+        "missed": false
+      }
+    ],
+    "status": "At Risk",
+    "probability": 39,
+    "suggestions": [
+      "Student is at risk with 39% probability and 0 missed tasks. Assign remedial practice and schedule counseling."
+    ],
+    "alerts": [
+      "\ud83d\udd34 Placement probability is critically low. Immediate action required."
+    ],
+    "alternative_careers": [
+      {
+        "role": "Backend Developer",
+        "required_skills": [
+          "python",
+          "sql",
+          "flask",
+          "django",
+          "nodejs"
+        ],
+        "description": "Strong match for your Python + database skills.",
+        "companies": [
+          "Flipkart",
+          "Paytm",
+          "PhonePe",
+          "Razorpay"
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "required_skills": [
+          "python",
+          "sql",
+          "spark",
+          "hadoop",
+          "pandas"
+        ],
+        "description": "Your data skills translate well to data engineering pipelines.",
+        "companies": [
+          "Amazon",
+          "Swiggy",
+          "Zomato",
+          "CRED"
+        ]
+      }
+    ],
+    "strategy": "Based on your current skill set, you show strong potential for Backend Developer. Consider diversifying your job search to include this role alongside your primary goal of SDE.",
+    "explanation": "Currently underprepared for the target role. Focus on core skill building and daily task completion.",
+    "id": "student_17389074",
+    "created_at": "2026-04-09T14:14:03.566405Z"
+  },
+  {
+    "name": "Riya Mehta",
+    "goal": "SDE",
+    "skills": [
+      "pandas",
+      "tableau",
+      "sql",
+      "excel",
+      "statistics",
+      "python"
+    ],
+    "tasks_completed": 0,
+    "tasks_missed": 0,
+    "roadmap": [
+      {
+        "day": 1,
+        "task": "Revise Arrays & Strings \u2014 Solve 3 LeetCode Easy problems",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 2,
+        "task": "Study Linked Lists & Recursion \u2014 Implement from scratch",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 3,
+        "task": "Trees & Graph traversal \u2014 BFS/DFS practice",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 4,
+        "task": "Dynamic Programming basics \u2014 Fibonacci, Knapsack",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 5,
+        "task": "System Design concepts \u2014 CAP theorem, Load Balancing",
+        "topic": "System Design",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 6,
+        "task": "Mock Interview simulation \u2014 2 problems in 45 minutes",
+        "topic": "Interview Prep",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 7,
+        "task": "Resume polish + Apply to 5 SDE roles on LinkedIn/Naukri",
+        "topic": "Job Hunt",
+        "completed": false,
+        "missed": false
+      }
+    ],
+    "status": "At Risk",
+    "probability": 25,
+    "suggestions": [
+      "Student is at risk with 25% probability and 0 missed tasks. Assign remedial practice and schedule counseling."
+    ],
+    "alerts": [
+      "\ud83d\udd34 Placement probability is critically low. Immediate action required."
+    ],
+    "alternative_careers": [
+      {
+        "role": "Business Analyst",
+        "required_skills": [
+          "excel",
+          "sql",
+          "statistics",
+          "tableau",
+          "power bi"
+        ],
+        "description": "Your analytics skills are perfect for strategy and business analysis roles.",
+        "companies": [
+          "McKinsey",
+          "Deloitte",
+          "KPMG",
+          "Accenture"
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "required_skills": [
+          "python",
+          "sql",
+          "spark",
+          "hadoop",
+          "pandas"
+        ],
+        "description": "Your data skills translate well to data engineering pipelines.",
+        "companies": [
+          "Amazon",
+          "Swiggy",
+          "Zomato",
+          "CRED"
+        ]
+      }
+    ],
+    "strategy": "Based on your current skill set, you show strong potential for Business Analyst. Consider diversifying your job search to include this role alongside your primary goal of SDE.",
+    "explanation": "Currently underprepared for the target role. Focus on core skill building and daily task completion.",
+    "id": "student_f99000b4",
+    "created_at": "2026-04-09T14:15:38.253122Z"
+  },
+  {
+    "name": "Riya Mehta",
+    "goal": "SDE",
+    "skills": [
+      "pandas",
+      "tableau",
+      "sql",
+      "excel",
+      "statistics",
+      "python"
+    ],
+    "tasks_completed": 0,
+    "tasks_missed": 0,
+    "roadmap": [
+      {
+        "day": 1,
+        "task": "Revise Arrays & Strings \u2014 Solve 3 LeetCode Easy problems",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 2,
+        "task": "Study Linked Lists & Recursion \u2014 Implement from scratch",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 3,
+        "task": "Trees & Graph traversal \u2014 BFS/DFS practice",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 4,
+        "task": "Dynamic Programming basics \u2014 Fibonacci, Knapsack",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 5,
+        "task": "System Design concepts \u2014 CAP theorem, Load Balancing",
+        "topic": "System Design",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 6,
+        "task": "Mock Interview simulation \u2014 2 problems in 45 minutes",
+        "topic": "Interview Prep",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 7,
+        "task": "Resume polish + Apply to 5 SDE roles on LinkedIn/Naukri",
+        "topic": "Job Hunt",
+        "completed": false,
+        "missed": false
+      }
+    ],
+    "status": "At Risk",
+    "probability": 25,
+    "suggestions": [
+      "Student is at risk with 25% probability and 0 missed tasks. Assign remedial practice and schedule counseling."
+    ],
+    "alerts": [
+      "\ud83d\udd34 Placement probability is critically low. Immediate action required."
+    ],
+    "alternative_careers": [
+      {
+        "role": "Business Analyst",
+        "required_skills": [
+          "excel",
+          "sql",
+          "statistics",
+          "tableau",
+          "power bi"
+        ],
+        "description": "Your analytics skills are perfect for strategy and business analysis roles.",
+        "companies": [
+          "McKinsey",
+          "Deloitte",
+          "KPMG",
+          "Accenture"
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "required_skills": [
+          "python",
+          "sql",
+          "spark",
+          "hadoop",
+          "pandas"
+        ],
+        "description": "Your data skills translate well to data engineering pipelines.",
+        "companies": [
+          "Amazon",
+          "Swiggy",
+          "Zomato",
+          "CRED"
+        ]
+      }
+    ],
+    "strategy": "Based on your current skill set, you show strong potential for Business Analyst. Consider diversifying your job search to include this role alongside your primary goal of SDE.",
+    "explanation": "Currently underprepared for the target role. Focus on core skill building and daily task completion.",
+    "id": "student_36e4ad69",
+    "created_at": "2026-04-09T14:16:01.039713Z"
+  },
+  {
+    "name": "Riya Mehta",
+    "goal": "Data Analyst",
+    "skills": [
+      "pandas",
+      "tableau",
+      "sql",
+      "excel",
+      "statistics",
+      "python"
+    ],
+    "tasks_completed": 1,
+    "tasks_missed": 1,
+    "roadmap": [
+      {
+        "completed": true,
+        "day": 1,
+        "missed": false,
+        "task": "SQL deep dive \u2014 JOINs, GROUP BY, Window Functions",
+        "topic": "SQL"
+      },
+      {
+        "completed": false,
+        "day": 2,
+        "missed": true,
+        "task": "Python Pandas \u2014 Load, clean, and analyze a dataset",
+        "topic": "Python"
+      },
+      {
+        "completed": false,
+        "day": 3,
+        "missed": false,
+        "task": "Data visualization \u2014 Build 3 charts using Matplotlib/Tableau",
+        "topic": "Visualization"
+      },
+      {
+        "completed": false,
+        "day": 4,
+        "missed": false,
+        "task": "Statistics fundamentals \u2014 Mean, Median, Standard Deviation, p-values",
+        "topic": "Statistics"
+      },
+      {
+        "completed": false,
+        "day": 5,
+        "missed": false,
+        "task": "Excel advanced \u2014 VLOOKUP, Pivot Tables, Macros",
+        "topic": "Excel"
+      },
+      {
+        "completed": false,
+        "day": 6,
+        "missed": false,
+        "task": "Build a mini-dashboard project using real dataset",
+        "topic": "Project"
+      },
+      {
+        "completed": false,
+        "day": 7,
+        "missed": false,
+        "task": "Portfolio update + Apply to 5 Data Analyst roles",
+        "topic": "Job Hunt"
+      }
+    ],
+    "status": "Learning",
+    "probability": 67,
+    "suggestions": [
+      "Student is progressing. Assign additional practice problems to boost from 67% to 70%+."
+    ],
+    "alerts": [],
+    "alternative_careers": [
+      {
+        "role": "Business Analyst",
+        "required_skills": [
+          "excel",
+          "sql",
+          "statistics",
+          "tableau",
+          "power bi"
+        ],
+        "description": "Your analytics skills are perfect for strategy and business analysis roles.",
+        "companies": [
+          "McKinsey",
+          "Deloitte",
+          "KPMG",
+          "Accenture"
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "required_skills": [
+          "python",
+          "sql",
+          "spark",
+          "hadoop",
+          "pandas"
+        ],
+        "description": "Your data skills translate well to data engineering pipelines.",
+        "companies": [
+          "Amazon",
+          "Swiggy",
+          "Zomato",
+          "CRED"
+        ]
+      }
+    ],
+    "strategy": "Based on your current skill set, you show strong potential for Business Analyst. Consider diversifying your job search to include this role alongside your primary goal of Data Analyst.",
+    "explanation": "Good foundational skills but need more consistency. Completing missed tasks and strengthening core skills will significantly boost your chances.",
+    "id": "student_c4280df0",
+    "created_at": "2026-04-09T14:16:36.888786Z"
+  },
+  {
+    "name": "Ayush Jha",
+    "goal": "Data Scientist",
+    "skills": [
+      "ml",
+      "python",
+      "machine learning",
+      "sql",
+      "tensorflow"
+    ],
+    "tasks_completed": 0,
+    "tasks_missed": 0,
+    "roadmap": [
+      {
+        "day": 1,
+        "task": "Python for ML \u2014 Pandas, NumPy, Scikit-learn setup",
+        "topic": "Python",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 2,
+        "task": "Supervised learning \u2014 Linear & Logistic Regression",
+        "topic": "ML",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 3,
+        "task": "Classification models \u2014 Decision Trees, Random Forest",
+        "topic": "ML",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 4,
+        "task": "Model evaluation \u2014 Accuracy, Precision, Recall, F1, ROC-AUC",
+        "topic": "ML Metrics",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 5,
+        "task": "Feature engineering & dimensionality reduction (PCA)",
+        "topic": "ML",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 6,
+        "task": "End-to-end ML project \u2014 Train, evaluate, and present model",
+        "topic": "Project",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 7,
+        "task": "Kaggle competition submission + Apply to 5 DS roles",
+        "topic": "Job Hunt",
+        "completed": false,
+        "missed": false
+      }
+    ],
+    "status": "Learning",
+    "probability": 58,
+    "suggestions": [
+      "Student is progressing. Assign additional practice problems to boost from 58% to 70%+."
+    ],
+    "alerts": [
+      "\ud83d\udfe1 Below target score. Focus on skill-building this week."
+    ],
+    "alternative_careers": [
+      {
+        "role": "ML Engineer",
+        "required_skills": [
+          "python",
+          "machine learning",
+          "ml",
+          "tensorflow",
+          "pytorch",
+          "deep learning"
+        ],
+        "description": "Strong ML background makes you a great fit for applied AI teams.",
+        "companies": [
+          "Google",
+          "Microsoft",
+          "OLA",
+          "Meesho"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "required_skills": [
+          "python",
+          "sql",
+          "flask",
+          "django",
+          "nodejs"
+        ],
+        "description": "Strong match for your Python + database skills.",
+        "companies": [
+          "Flipkart",
+          "Paytm",
+          "PhonePe",
+          "Razorpay"
+        ]
+      }
+    ],
+    "strategy": "Based on your current skill set, you show strong potential for ML Engineer. Consider diversifying your job search to include this role alongside your primary goal of Data Scientist.",
+    "explanation": "Good foundational skills but need more consistency. Completing missed tasks and strengthening core skills will significantly boost your chances.",
+    "id": "student_ee1503d9",
+    "created_at": "2026-04-09T14:34:45.314119Z"
+  },
+  {
+    "name": "Ayush",
+    "goal": "SDE",
+    "skills": [
+      "python",
+      "dsa",
+      "git"
+    ],
+    "tasks_completed": 0,
+    "tasks_missed": 0,
+    "roadmap": [
+      {
+        "day": 1,
+        "task": "Revise Arrays & Strings \u2014 Solve 3 LeetCode Easy problems",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 2,
+        "task": "Study Linked Lists & Recursion \u2014 Implement from scratch",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 3,
+        "task": "Trees & Graph traversal \u2014 BFS/DFS practice",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 4,
+        "task": "Dynamic Programming basics \u2014 Fibonacci, Knapsack",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 5,
+        "task": "System Design concepts \u2014 CAP theorem, Load Balancing",
+        "topic": "System Design",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 6,
+        "task": "Mock Interview simulation \u2014 2 problems in 45 minutes",
+        "topic": "Interview Prep",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 7,
+        "task": "Resume polish + Apply to 5 SDE roles on LinkedIn/Naukri",
+        "topic": "Job Hunt",
+        "completed": false,
+        "missed": false
+      }
+    ],
+    "status": "At Risk",
+    "probability": 35,
+    "suggestions": [
+      "Student is at risk with 35% probability and 0 missed tasks. Assign remedial practice and schedule counseling."
+    ],
+    "alerts": [
+      "\ud83d\udd34 Placement probability is critically low. Immediate action required."
+    ],
+    "alternative_careers": [
+      {
+        "role": "QA / Test Engineer",
+        "required_skills": [
+          "python",
+          "java",
+          "selenium",
+          "testing",
+          "git"
+        ],
+        "description": "Solid programming skills are great for automated testing roles.",
+        "companies": [
+          "Infosys",
+          "Wipro",
+          "TCS",
+          "Capgemini"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "required_skills": [
+          "python",
+          "sql",
+          "flask",
+          "django",
+          "nodejs"
+        ],
+        "description": "Strong match for your Python + database skills.",
+        "companies": [
+          "Flipkart",
+          "Paytm",
+          "PhonePe",
+          "Razorpay"
+        ]
+      }
+    ],
+    "strategy": "Based on your current skill set, you show strong potential for QA / Test Engineer. Consider diversifying your job search to include this role alongside your primary goal of SDE.",
+    "explanation": "Currently underprepared for the target role. Focus on core skill building and daily task completion.",
+    "id": "student_7c0a3a2d",
+    "created_at": "2026-04-09T14:41:47.143490Z"
+  },
+  {
+    "name": "Priya",
+    "goal": "Data Analyst",
+    "skills": [
+      "tableau",
+      "excel",
+      "sql",
+      "python",
+      "pandas"
+    ],
+    "tasks_completed": 0,
+    "tasks_missed": 0,
+    "roadmap": [
+      {
+        "day": 1,
+        "task": "SQL deep dive \u2014 JOINs, GROUP BY, Window Functions",
+        "topic": "SQL",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 2,
+        "task": "Python Pandas \u2014 Load, clean, and analyze a dataset",
+        "topic": "Python",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 3,
+        "task": "Data visualization \u2014 Build 3 charts using Matplotlib/Tableau",
+        "topic": "Visualization",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 4,
+        "task": "Statistics fundamentals \u2014 Mean, Median, Standard Deviation, p-values",
+        "topic": "Statistics",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 5,
+        "task": "Excel advanced \u2014 VLOOKUP, Pivot Tables, Macros",
+        "topic": "Excel",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 6,
+        "task": "Build a mini-dashboard project using real dataset",
+        "topic": "Project",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 7,
+        "task": "Portfolio update + Apply to 5 Data Analyst roles",
+        "topic": "Job Hunt",
+        "completed": false,
+        "missed": false
+      }
+    ],
+    "status": "Learning",
+    "probability": 60,
+    "suggestions": [
+      "Student is progressing. Assign additional practice problems to boost from 60% to 70%+."
+    ],
+    "alerts": [],
+    "alternative_careers": [
+      {
+        "role": "Data Engineer",
+        "required_skills": [
+          "python",
+          "sql",
+          "spark",
+          "hadoop",
+          "pandas"
+        ],
+        "description": "Your data skills translate well to data engineering pipelines.",
+        "companies": [
+          "Amazon",
+          "Swiggy",
+          "Zomato",
+          "CRED"
+        ]
+      },
+      {
+        "role": "Business Analyst",
+        "required_skills": [
+          "excel",
+          "sql",
+          "statistics",
+          "tableau",
+          "power bi"
+        ],
+        "description": "Your analytics skills are perfect for strategy and business analysis roles.",
+        "companies": [
+          "McKinsey",
+          "Deloitte",
+          "KPMG",
+          "Accenture"
+        ]
+      }
+    ],
+    "strategy": "Based on your current skill set, you show strong potential for Data Engineer. Consider diversifying your job search to include this role alongside your primary goal of Data Analyst.",
+    "explanation": "Good foundational skills but need more consistency. Completing missed tasks and strengthening core skills will significantly boost your chances.",
+    "id": "student_bae69bdc",
+    "created_at": "2026-04-09T14:43:53.290086Z"
+  },
+  {
+    "name": "Ayush Jha",
+    "goal": "Data Scientist",
+    "skills": [
+      "machine learning",
+      "ml",
+      "sql",
+      "python",
+      "dsa"
+    ],
+    "tasks_completed": 0,
+    "tasks_missed": 0,
+    "roadmap": [
+      {
+        "day": 1,
+        "task": "Python for ML \u2014 Pandas, NumPy, Scikit-learn setup",
+        "topic": "Python",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 2,
+        "task": "Supervised learning \u2014 Linear & Logistic Regression",
+        "topic": "ML",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 3,
+        "task": "Classification models \u2014 Decision Trees, Random Forest",
+        "topic": "ML",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 4,
+        "task": "Model evaluation \u2014 Accuracy, Precision, Recall, F1, ROC-AUC",
+        "topic": "ML Metrics",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 5,
+        "task": "Feature engineering & dimensionality reduction (PCA)",
+        "topic": "ML",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 6,
+        "task": "End-to-end ML project \u2014 Train, evaluate, and present model",
+        "topic": "Project",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 7,
+        "task": "Kaggle competition submission + Apply to 5 DS roles",
+        "topic": "Job Hunt",
+        "completed": false,
+        "missed": false
+      }
+    ],
+    "status": "Learning",
+    "probability": 54,
+    "suggestions": [
+      "Student is progressing. Assign additional practice problems to boost from 54% to 70%+."
+    ],
+    "alerts": [
+      "\ud83d\udfe1 Below target score. Focus on skill-building this week."
+    ],
+    "alternative_careers": [
+      {
+        "role": "ML Engineer",
+        "required_skills": [
+          "python",
+          "machine learning",
+          "ml",
+          "tensorflow",
+          "pytorch",
+          "deep learning"
+        ],
+        "description": "Strong ML background makes you a great fit for applied AI teams.",
+        "companies": [
+          "Google",
+          "Microsoft",
+          "OLA",
+          "Meesho"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "required_skills": [
+          "python",
+          "sql",
+          "flask",
+          "django",
+          "nodejs"
+        ],
+        "description": "Strong match for your Python + database skills.",
+        "companies": [
+          "Flipkart",
+          "Paytm",
+          "PhonePe",
+          "Razorpay"
+        ]
+      }
+    ],
+    "strategy": "Based on your current skill set, you show strong potential for ML Engineer. Consider diversifying your job search to include this role alongside your primary goal of Data Scientist.",
+    "explanation": "Good foundational skills but need more consistency. Completing missed tasks and strengthening core skills will significantly boost your chances.",
+    "id": "student_d883cbf9",
+    "created_at": "2026-04-09T14:53:00.137683Z"
+  },
+  {
+    "name": "Ayush Jha",
+    "goal": "Data Scientist",
+    "skills": [
+      "ml",
+      "dsa",
+      "tensorflow",
+      "machine learning",
+      "python",
+      "sql"
+    ],
+    "tasks_completed": 0,
+    "tasks_missed": 0,
+    "roadmap": [
+      {
+        "day": 1,
+        "task": "Python for ML \u2014 Pandas, NumPy, Scikit-learn setup",
+        "topic": "Python",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 2,
+        "task": "Supervised learning \u2014 Linear & Logistic Regression",
+        "topic": "ML",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 3,
+        "task": "Classification models \u2014 Decision Trees, Random Forest",
+        "topic": "ML",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 4,
+        "task": "Model evaluation \u2014 Accuracy, Precision, Recall, F1, ROC-AUC",
+        "topic": "ML Metrics",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 5,
+        "task": "Feature engineering & dimensionality reduction (PCA)",
+        "topic": "ML",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 6,
+        "task": "End-to-end ML project \u2014 Train, evaluate, and present model",
+        "topic": "Project",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 7,
+        "task": "Kaggle competition submission + Apply to 5 DS roles",
+        "topic": "Job Hunt",
+        "completed": false,
+        "missed": false
+      }
+    ],
+    "status": "Learning",
+    "probability": 58,
+    "suggestions": [
+      "Focus on deploying a full-stack machine learning application using Flask or FastAPI to demonstrate your ability to bridge the gap between model development and production-ready software. This practical implementation will significantly boost your 58% placement probability by showcasing end-to-end engineering skills to recruiters."
+    ],
+    "alerts": [
+      "\ud83d\udfe1 Below target score. Focus on skill-building this week."
+    ],
+    "alternative_careers": [
+      {
+        "role": "ML Engineer",
+        "required_skills": [
+          "python",
+          "machine learning",
+          "ml",
+          "tensorflow",
+          "pytorch",
+          "deep learning"
+        ],
+        "description": "Strong ML background makes you a great fit for applied AI teams.",
+        "companies": [
+          "Google",
+          "Microsoft",
+          "OLA",
+          "Meesho"
+        ]
+      },
+      {
+        "role": "Backend Developer",
+        "required_skills": [
+          "python",
+          "sql",
+          "flask",
+          "django",
+          "nodejs"
+        ],
+        "description": "Strong match for your Python + database skills.",
+        "companies": [
+          "Flipkart",
+          "Paytm",
+          "PhonePe",
+          "Razorpay"
+        ]
+      }
+    ],
+    "strategy": "You should prioritize the **ML Engineer** path because your proficiency in TensorFlow, Python, and DSA aligns perfectly with the technical architecture and model deployment tasks these roles demand. Transitioning to MLE offers a superior effort-vs-reward tradeoff compared to Data Science, as it leverages your existing coding strengths for high-paying production roles without requiring the deep statistical pivot often needed for research-heavy DS positions.",
+    "explanation": "Your perfect task completion and proficiency in core tools like TensorFlow and Python provide a solid technical foundation for a Data Science career. To increase your 58% placement probability, you must now bridge the gap between foundational knowledge and advanced application by developing complex, end-to-end projects that demonstrate your ability to solve real-world business problems.",
+    "id": "student_c82dcb9b",
+    "created_at": "2026-04-09T14:57:17.666534Z"
+  },
+  {
+    "name": "Ayush Jha",
+    "goal": "Full Stack Developer",
+    "skills": [
+      "git",
+      "node.js",
+      "react",
+      "sql",
+      "js",
+      "python"
+    ],
+    "tasks_completed": 0,
+    "tasks_missed": 0,
+    "roadmap": [
+      {
+        "day": 1,
+        "task": "Master JS Event Loop, closures, and async/await through 5 coding exercises.",
+        "topic": "JavaScript",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 2,
+        "task": "Build a JWT-based authentication system using Node.js and Express middleware.",
+        "topic": "Backend",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 3,
+        "task": "Implement complex state management using React Context API and custom hooks.",
+        "topic": "Frontend",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 4,
+        "task": "Practice complex SQL queries involving 3+ tables, window functions, and indexing.",
+        "topic": "SQL",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 5,
+        "task": "Solve 5 Medium LeetCode problems on Arrays and HashMaps using Python or JS.",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 6,
+        "task": "Design a scalable URL shortener system and review Git branching strategies.",
+        "topic": "System Design",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 7,
+        "task": "Create a full-stack CRUD app integrating React, Node, and SQL; test with Jest.",
+        "topic": "Integration",
+        "completed": false,
+        "missed": false
+      }
+    ],
+    "status": "Learning",
+    "probability": 42,
+    "suggestions": [
+      "Build and deploy a complex, full-stack application that integrates all your current skills (React, Node, and SQL) into a single portfolio project to demonstrate end-to-end development proficiency."
+    ],
+    "alerts": [
+      "\ud83d\udfe1 Below target score. Focus on skill-building this week."
+    ],
+    "alternative_careers": [
+      {
+        "role": "Backend Developer",
+        "required_skills": [
+          "python",
+          "sql",
+          "flask",
+          "django",
+          "nodejs"
+        ],
+        "description": "Strong match for your Python + database skills.",
+        "companies": [
+          "Flipkart",
+          "Paytm",
+          "PhonePe",
+          "Razorpay"
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "required_skills": [
+          "python",
+          "sql",
+          "spark",
+          "hadoop",
+          "pandas"
+        ],
+        "description": "Your data skills translate well to data engineering pipelines.",
+        "companies": [
+          "Amazon",
+          "Swiggy",
+          "Zomato",
+          "CRED"
+        ]
+      }
+    ],
+    "strategy": "You should prioritize **Backend Development** because your current proficiency in Node.js, Python, and SQL provides a near-complete toolkit for this role, offering the highest immediate reward for the least additional effort. While Data Engineering is lucrative, it would require significant retraining in specialized pipeline tools and infrastructure that your current stack lacks. Focusing on backend allows you to leverage your React knowledge as a competitive edge in cross-functional teams while securing a core role much faster.",
+    "explanation": "While your perfect task completion and relevant tech stack demonstrate great discipline, your 42% probability reflects a need to translate these individual skills into a cohesive, high-impact project portfolio that proves your real-world problem-solving abilities. You have built a strong foundation, and by focusing now on mock interviews and professional networking, you will bridge the gap between being a disciplined student and a top-tier hire.",
+    "id": "student_dc987abb",
+    "created_at": "2026-04-09T15:01:21.105581Z"
+  },
+  {
+    "name": "Ayush ki biwi",
+    "goal": "SDE",
+    "skills": [
+      "sql",
+      "dsa",
+      "python"
+    ],
+    "tasks_completed": 0,
+    "tasks_missed": 0,
+    "roadmap": [
+      {
+        "day": 1,
+        "task": "Revise Arrays & Strings \u2014 Solve 3 LeetCode Easy problems",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 2,
+        "task": "Study Linked Lists & Recursion \u2014 Implement from scratch",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 3,
+        "task": "Trees & Graph traversal \u2014 BFS/DFS practice",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 4,
+        "task": "Dynamic Programming basics \u2014 Fibonacci, Knapsack",
+        "topic": "DSA",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 5,
+        "task": "System Design concepts \u2014 CAP theorem, Load Balancing",
+        "topic": "System Design",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 6,
+        "task": "Mock Interview simulation \u2014 2 problems in 45 minutes",
+        "topic": "Interview Prep",
+        "completed": false,
+        "missed": false
+      },
+      {
+        "day": 7,
+        "task": "Resume polish + Apply to 5 SDE roles on LinkedIn/Naukri",
+        "topic": "Job Hunt",
+        "completed": false,
+        "missed": false
+      }
+    ],
+    "status": "At Risk",
+    "probability": 37,
+    "suggestions": [
+      "Immediately build and host one end-to-end project that integrates SQL and Python to demonstrate practical application, as your profile currently lacks the portfolio evidence needed to convert your technical skills into job offers."
+    ],
+    "alerts": [
+      "\ud83d\udd34 Placement probability is critically low. Immediate action required."
+    ],
+    "alternative_careers": [
+      {
+        "role": "Backend Developer",
+        "required_skills": [
+          "python",
+          "sql",
+          "flask",
+          "django",
+          "nodejs"
+        ],
+        "description": "Strong match for your Python + database skills.",
+        "companies": [
+          "Flipkart",
+          "Paytm",
+          "PhonePe",
+          "Razorpay"
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "required_skills": [
+          "python",
+          "sql",
+          "spark",
+          "hadoop",
+          "pandas"
+        ],
+        "description": "Your data skills translate well to data engineering pipelines.",
+        "companies": [
+          "Amazon",
+          "Swiggy",
+          "Zomato",
+          "CRED"
+        ]
+      }
+    ],
+    "strategy": "Prioritize the **Data Engineering** path, as your current proficiency in SQL and Python directly covers the core technical stack, whereas Backend SDE would require significant additional effort to master complex web frameworks and system design. This choice offers a superior effort-to-reward ratio, allowing you to command high-tier SDE salaries faster by filling a specialized market gap rather than competing in the oversaturated generalist pool.",
+    "explanation": "While your perfect task completion and core proficiency in Python and DSA provide a solid foundation, your current score reflects a lack of specialized project work and industry-standard frameworks required to stand out in a competitive SDE market. By applying your strong technical discipline to build and showcase real-world applications, you can bridge this gap and quickly elevate your placement potential to match your work ethic.",
+    "id": "student_ad8009d0",
+    "created_at": "2026-04-09T15:09:25.024542Z"
+  }
+]
