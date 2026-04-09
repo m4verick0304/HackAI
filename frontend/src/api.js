@@ -2,7 +2,7 @@
 import { supabase } from "./lib/supabase";
 
 // Use environment variable for backend URL, fallback to localhost for development
-const BASE_URL = process.env.REACT_APP_API_URL || 'https://prepgenie-backend.onrender.com'; // Adjust this to your deployed backend URL
+const BASE_URL = process.env.REACT_APP_API_URL || 'https://hackai-oz9d.onrender.com'; // Adjust this to your deployed backend URL
 
 export const fetchWithAuth = async (url, options = {}) => {
   let token = null;
