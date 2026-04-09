@@ -158,7 +158,7 @@ export function StudentLogin({ onLogin }) {
     const { error: err } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: window.location.origin + '/auth/callback?role=student',
+        redirectTo: window.location.origin,
         queryParams: { prompt: 'select_account' },
       },
     });
