@@ -343,8 +343,41 @@ async def admin_data(authorization: Optional[str] = Header(None)):
         except Exception as e:
             raise HTTPException(status_code=403, detail=f"Role check failed: {str(e)[:100]}")
     try:
+        from utils.mock_data import generate_students
         students = load_students()
         
+        # If there's 0 real students or we want a good demo, append the 200 synthetic ones!
+        mock_students = generate_students(200)
+        # Adapt them to fit the dashboard's format
+        for m in mock_students:
+            m['goal'] = m['domain'].title()
+            m['skills'] = ['Python', 'DSA' if m['dsa_score'] > 70 else 'Basic Data Structures', m['domain']]
+            
+            # Map mock logic to app status + probability
+            if m['cgpa'] <= 6.5 and m['activity_days'] >= 25:
+                # Grind but low grades
+                m['status'] = 'Learning'
+                m['probability'] = 45
+                m['alerts'] = [f"Low CGPA ({m['cgpa']}) but highly active. Send encouragement!"]
+            elif m['cgpa'] >= 8.5 and m['activity_days'] <= 2:
+                # Ghosted high performer
+                m['status'] = 'At Risk'
+                m['probability'] = 30
+                m['alerts'] = ["High CGPA ghosted platform! Re-engage immediately."]
+            else:
+                m['probability'] = min(99, int((m['cgpa'] * 5) + (m['dsa_score'] * 0.3) + m['interviews_cleared'] * 2))
+                if m['probability'] >= 75:
+                    m['status'] = 'Ready'
+                    m['alerts'] = []
+                elif m['probability'] >= 50:
+                    m['status'] = 'Learning'
+                    m['alerts'] = []
+                else:
+                    m['status'] = 'At Risk'
+                    m['alerts'] = [f"Score dropping. DSA: {m['dsa_score']}"]
+
+        students.extend(mock_students)
+
         return {
             "success": True,
             "students": students,
